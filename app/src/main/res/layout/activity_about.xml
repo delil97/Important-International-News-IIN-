@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Classes.About">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:padding="10dp"
+        android:text="Made by Delil Ds in 2019, this app was created to publish the top and most important news around the globe.
+\n
+\nWhat makes this app different from other news apps? With our app you are
+free from all the unnecessary adds. We do publish news from websites such as CNN and BBC,
+in our app the users will get a link to the source of the published News.
+In this way, those who wants to dig deeper into a specific topic will have the opportunity
+to do so.
+\n
+\nOur app does also have a special section for only Swedish news. This section will be useful for those who
+live in and even outside of Sweden.
+\n\n"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        app:fontFamily="@font/alfa_slab_one" />
+
+</RelativeLayout>
